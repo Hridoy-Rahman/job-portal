@@ -1,9 +1,9 @@
  [
         {
             "id": 1,
-            "company_logo": "https://example.com/company1_logo.png",
+            "company_logo": "../src/assets/Logo/google-1-1 1-1.png",
             "job_title": "Web Developer",
-            "company_name": "Company 1",
+            "company_name": "Google",
             "remote_or_onsite": "Remote",
             "location": "New York, NY",
             "fulltime_or_parttime": "Full-time",
@@ -14,14 +14,14 @@
             "experiences": "Minimum 2 years of experience as a web developer.",
             "contact_information": {
                 "phone": "555-1234",
-                "email": "jobs@company1.com"
+                "email": "jobs@google.com"
             }
         },
         {
             "id": 2,
-            "company_logo": "https://example.com/company2_logo.png",
+            "company_logo": "../src/assets/Logo/google-1-1 1-1.png",
             "job_title": "Software Engineer",
-            "company_name": "Company 2",
+            "company_name": "Google",
             "remote_or_onsite": "Onsite",
             "location": "San Francisco, CA",
             "fulltime_or_parttime": "Full-time",
@@ -32,14 +32,14 @@
             "experiences": "Minimum 3 years of experience as a software engineer.",
             "contact_information": {
                 "phone": "555-5678",
-                "email": "jobs@company2.com"
+                "email": "jobs@google.com"
             }
         },
         {
             "id": 3,
-            "company_logo": "https://example.com/company3_logo.png",
+            "company_logo": "../src/assets/Logo/netflix-4 1.png",
             "job_title": "Marketing Manager",
-            "company_name": "Company 3",
+            "company_name": "Netflix",
             "remote_or_onsite": "Remote",
             "location": "Austin, TX",
             "fulltime_or_parttime": "Full-time",
@@ -50,15 +50,15 @@
             "experiences": "Minimum 5 years of experience in marketing, with at least 2 years in a management role.",
             "contact_information": {
                 "phone": "555-9012",
-                "email": "jobs@company3.com"
+                "email": "jobs@netflix.com"
             }
         },
       
           {
             "id": 4,
-            "company_logo": "https://example.com/company1_logo.png",
+            "company_logo": "../src/assets/Logo/google-1-1 1-1.png",
             "job_title": "Front-End Developer",
-            "company_name": "Company 4",
+            "company_name": "Google",
             "remote_or_onsite": "Remote",
             "location": "Chicago, IL",
             "fulltime_or_parttime": "Full-time",
@@ -69,14 +69,14 @@
             "experiences": "Minimum 2 years of experience as a front-end developer.",
             "contact_information": {
                 "phone": "555-1234",
-                "email": "jobs@company4.com"
+                "email": "jobs@google.com"
             }
         },
         {
             "id": 5,
-            "company_logo": "https://example.com/company2_logo.png",
+            "company_logo": "../src/assets/Logo/netflix-4 1.png",
             "job_title": "Product Manager",
-            "company_name": "Company 5",
+            "company_name": "Netflix",
             "remote_or_onsite": "Onsite",
             "location": "Los Angeles, CA",
             "fulltime_or_parttime": "Full-time",
@@ -87,14 +87,14 @@
             "experiences": "Minimum 3 years of experience as a product manager.",
             "contact_information": {
                 "phone": "555-5678",
-                "email": "jobs@company5.com"
+                "email": "jobs@netflix.com"
             }
         },
         {
             "id": 6,
-            "company_logo": "https://example.com/company3_logo.png",
+            "company_logo": "../src/assets/Logo/tesla-9 1.png",
             "job_title": "Data Scientist",
-            "company_name": "Company 6",
+            "company_name": "Tesla",
             "remote_or_onsite": "Remote",
             "location": "Seattle, WA",
             "fulltime_or_parttime": "Full-time",
@@ -105,7 +105,7 @@
             "experiences": "Minimum 2 years of experience as a data scientist.",
             "contact_information": {
                 "phone": "555-9012",
-                "email": "jobs@company6.com"
+                "email": "jobs@tesla.com"
             }
         }
     ]

@@ -4,7 +4,6 @@ import App from './App'
 import './index.css'
 import Statistics from './Components/Statistics'
 import Blog from './Components/Blog'
-import About from './Components/About'
 import ErrorPage from './Components/ErrorPage'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './Components/Home'
@@ -18,13 +17,15 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home />,
-        loader: () => fetch('Category.json'),
-      },
-      {
-        path: '/',
-        element: <Home />,
-        loader: () => fetch('Job.json'),
+        element: <Home categories={[]} jobs={[]} />,
+        loader: async () => {
+          const jobCategory = await fetch('Category.json');
+          const categoryData = await jobCategory.json();
+          const featuredJobs = await fetch('Job.json');
+          const jobData = await featuredJobs.json();
+          console.log(categoryData)
+          return { categories: categoryData, jobs: jobData };
+        },
       },
       { path: '/statistics', element: <Statistics /> },
       { path: '/blog', element: <Blog /> },

@@ -8,7 +8,8 @@ import image from '../assets/Images/image.png';
 const Home = () => {
     
 
-    const jobCategory=useLoaderData()
+    const jobs=useLoaderData()
+    const jobCategory= jobs.categories
     console.log(jobCategory)
     return (
         <div>
@@ -27,7 +28,11 @@ const Home = () => {
             <CategoryList
             
             jobCategory={jobCategory}></CategoryList>
-           
+
+            {/* <FeaturedJobs
+            jobs={jobs}
+            ></FeaturedJobs>
+            */}
         </div>
     );
 };
