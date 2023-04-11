@@ -11,13 +11,13 @@ const Header = () => {
         <div className='bg-gray-100 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 rounded-xl'>
             <div className='relative flex items-center justify-between'>
                 <Link to='/'>
-                    <span className='ml-2 text-xl font-bold tracking-wide text-gray-800'>
+                    <span className='ml-2 text-3xl font-bold tracking-wide text-gray-800'>
                         Chakri Khuji
                     </span>
                 </Link>
 
                 {/* Nav Items Section */}
-                <ul className='items-center hidden space-x-8 lg:flex'>
+                <ul className='items-center hidden font-semibold text-lg space-x-8 lg:flex'>
                     <li>
                         <NavLink
                             to='/'
@@ -51,9 +51,11 @@ const Header = () => {
                         </NavLink>
                     </li>
                 </ul>
-                <button className='btn-primary p-3 text-xl rounded-lg hidden lg-'>
+                <button className='btn-primary text-white p-3 text-xl rounded-lg hidden lg:flex'>
                     Start Applying
                 </button>
+
+
                 {/* Mobile Navbar Section */}
                 <div className='lg:hidden'>
                     {/* Dropdown Open Button */}
@@ -71,9 +73,8 @@ const Header = () => {
                                 <div className='flex items-center justify-between mb-4'>
                                     <div>
                                         <Link to='/' className='inline-flex items-center'>
-                                            <BoltIcon className='h-6 w-6 text-blue-500' />
                                             <span className='ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase'>
-                                                nextPage
+                                                Chakri khuji
                                             </span>
                                         </Link>
                                     </div>
@@ -98,18 +99,26 @@ const Header = () => {
                                         </li>
                                         <li>
                                             <Link
-                                                to='/books'
+                                                to='/statistics'
                                                 className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
                                             >
-                                                Books
+                                                Statistics
                                             </Link>
                                         </li>
                                         <li>
                                             <Link
-                                                to='/about'
+                                                to='/appliedJobs'
                                                 className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
                                             >
-                                                About Us
+                                                Applied Jobs
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                to='/blog'
+                                                className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400'
+                                            >
+                                                Blog
                                             </Link>
                                         </li>
                                     </ul>
