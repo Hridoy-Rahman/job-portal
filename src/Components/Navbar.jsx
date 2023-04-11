@@ -52,7 +52,7 @@ const Header = () => {
                         </NavLink>
                     </li>
                 </ul>
-                <button className='btn-primary text-white p-3 text-xl rounded-lg hidden lg:flex'>
+                <button className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... text-white p-3 text-xl rounded-lg hidden lg:flex'>
                     Start Applying
                 </button>
 

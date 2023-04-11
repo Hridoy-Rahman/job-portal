@@ -2,6 +2,7 @@ import React from 'react';
 
 
 const JobCategory = ({job}) => {
+    // console.log(job)
     
     return (
         <div className='border border-gray-200 bg-gray-100 rounded-lg p-4 text-start '>
