@@ -28,7 +28,7 @@ const FeaturedJobList = ({ jobs }) => {
             
             {!showAllJobs && (
                 <div className='mt-8 text-center'>
-                    <button onClick={toggleShowAllJobs} className='bg-gray-200 px-4 py-2 rounded-md hover:bg-gray-300'>
+                    <button onClick={toggleShowAllJobs} className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... text-white p-3 text-xl rounded-lg mt-4'>
                         See More
                     </button>
                 </div>
