@@ -1,0 +1,111 @@
+ [
+        {
+            "id": 1,
+            "company_logo": "https://example.com/company1_logo.png",
+            "job_title": "Web Developer",
+            "company_name": "Company 1",
+            "remote_or_onsite": "Remote",
+            "location": "New York, NY",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$70,000 - $90,000",
+            "job_description": "We're looking for a skilled web developer to join our team.",
+            "job_responsibility": "Responsibilities include developing and maintaining our website, creating and implementing new features, and working closely with our design team.",
+            "educational_requirements": "A degree in Computer Science or related field, or equivalent experience.",
+            "experiences": "Minimum 2 years of experience as a web developer.",
+            "contact_information": {
+                "phone": "555-1234",
+                "email": "jobs@company1.com"
+            }
+        },
+        {
+            "id": 2,
+            "company_logo": "https://example.com/company2_logo.png",
+            "job_title": "Software Engineer",
+            "company_name": "Company 2",
+            "remote_or_onsite": "Onsite",
+            "location": "San Francisco, CA",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$80,000 - $100,000",
+            "job_description": "We're seeking a skilled software engineer to join our team.",
+            "job_responsibility": "Responsibilities include designing, developing, and testing software, collaborating with cross-functional teams, and debugging issues.",
+            "educational_requirements": "A degree in Computer Science or related field, or equivalent experience.",
+            "experiences": "Minimum 3 years of experience as a software engineer.",
+            "contact_information": {
+                "phone": "555-5678",
+                "email": "jobs@company2.com"
+            }
+        },
+        {
+            "id": 3,
+            "company_logo": "https://example.com/company3_logo.png",
+            "job_title": "Marketing Manager",
+            "company_name": "Company 3",
+            "remote_or_onsite": "Remote",
+            "location": "Austin, TX",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$90,000 - $110,000",
+            "job_description": "We're seeking a marketing manager to lead our team.",
+            "job_responsibility": "Responsibilities include developing marketing strategies, managing campaigns, and collaborating with other teams to ensure successful campaigns.",
+            "educational_requirements": "A degree in Marketing, Business Administration, or related field, or equivalent experience.",
+            "experiences": "Minimum 5 years of experience in marketing, with at least 2 years in a management role.",
+            "contact_information": {
+                "phone": "555-9012",
+                "email": "jobs@company3.com"
+            }
+        },
+      
+          {
+            "id": 4,
+            "company_logo": "https://example.com/company1_logo.png",
+            "job_title": "Front-End Developer",
+            "company_name": "Company 4",
+            "remote_or_onsite": "Remote",
+            "location": "Chicago, IL",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$75,000 - $90,000",
+            "job_description": "We're looking for a skilled front-end developer to join our team.",
+            "job_responsibility": "Responsibilities include designing and implementing user-facing features, ensuring the technical feasibility of UI/UX designs, and collaborating with cross-functional teams.",
+            "educational_requirements": "A degree in Computer Science or related field, or equivalent experience.",
+            "experiences": "Minimum 2 years of experience as a front-end developer.",
+            "contact_information": {
+                "phone": "555-1234",
+                "email": "jobs@company4.com"
+            }
+        },
+        {
+            "id": 5,
+            "company_logo": "https://example.com/company2_logo.png",
+            "job_title": "Product Manager",
+            "company_name": "Company 5",
+            "remote_or_onsite": "Onsite",
+            "location": "Los Angeles, CA",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$90,000 - $110,000",
+            "job_description": "We're seeking a talented product manager to join our team.",
+            "job_responsibility": "Responsibilities include defining and communicating the product vision, working closely with cross-functional teams, and analyzing customer feedback.",
+            "educational_requirements": "A degree in Business Administration or related field, or equivalent experience.",
+            "experiences": "Minimum 3 years of experience as a product manager.",
+            "contact_information": {
+                "phone": "555-5678",
+                "email": "jobs@company5.com"
+            }
+        },
+        {
+            "id": 6,
+            "company_logo": "https://example.com/company3_logo.png",
+            "job_title": "Data Scientist",
+            "company_name": "Company 6",
+            "remote_or_onsite": "Remote",
+            "location": "Seattle, WA",
+            "fulltime_or_parttime": "Full-time",
+            "salary": "$80,000 - $100,000",
+            "job_description": "We're looking for a skilled data scientist to join our team.",
+            "job_responsibility": "Responsibilities include analyzing large data sets, developing predictive models, and working with cross-functional teams to solve complex problems.",
+            "educational_requirements": "A degree in Mathematics, Statistics, or Computer Science, or equivalent experience.",
+            "experiences": "Minimum 2 years of experience as a data scientist.",
+            "contact_information": {
+                "phone": "555-9012",
+                "email": "jobs@company6.com"
+            }
+        }
+    ]

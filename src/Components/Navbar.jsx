@@ -12,7 +12,7 @@ const Header = () => {
 
             <div className='relative flex items-center justify-between'>
                 <Link to='/'>
-                    <span className='ml-2 text-3xl font-bold tracking-wide text-gray-800'>
+                    <span className='ml-2 text-3xl font-bold tracking-wide text-cyan-500'>
                         Chakri Khuji
                     </span>
                 </Link>
