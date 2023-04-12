@@ -17,14 +17,14 @@ const AppliedJobs = () => {
 
     return (
         <div>
-            <div className='bg-gray-100  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 mb-8 rounded-b-xl'>
-                <h1 className='text-4xl font-bold'>Applied Jobs</h1>
+            <div className='bg-gray-100 sm:px-4 lg:px-20  '>
+                <h1 className='text-4xl text-center font-bold'>Applied Jobs</h1>
                 <img className='h-32 ' src={image} alt='' />
             </div>
-            <div className="text-xl font-semibold bg-gray-200 p-4 mb-8 rounded-lg w-1/5 ">
+            <div className="text-xl font-semibold bg-gray-200 p-4 mx-auto mb-8 rounded-lg w-1/2 mt-8 lg:w-1/5 ">
                 <label>
                     Filter:
-                    <select value={filter} onChange={handleFilter}>
+                    <select  value={filter} onChange={handleFilter}>
                         <option value="">All</option>
                         <option value="Remote">Remote</option>
                         <option value="Onsite">Onsite</option>
@@ -39,7 +39,8 @@ const AppliedJobs = () => {
             return jobData.remote_or_onsite === filter; // filter by location
           }
         }).map(([jobId, jobData]) => (
-                <div className="flex flex-col lg:flex-row border-2 border-gray-200 p-4 justify-between items-center rounded-xl mb-4 " key={jobId}>
+                <div className="p-4 lg:px-20">
+                    <div className="flex flex-col lg:flex-row border-2 border-gray-200 p-4 justify-between items-center rounded-xl mb-4 " key={jobId}>
                     <div className="flex flex-col lg:flex-row justify-center items-center">
                         <div className="bg-gray-100 p-8 mb-4 rounded-xl justify-center items-center mr-4">
                             <img className="h-12 w-16 items-center" src={jobData.company_logo} alt="" />
@@ -66,6 +67,7 @@ const AppliedJobs = () => {
                     <div>
                         <button className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... text-white p-3  mt-4 text-xl rounded-lg'><Link to={`/jobs/${jobData.id}`}>View Details</Link></button>
                     </div>
+                </div>
                 </div>
             ))}
         </div>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import image1 from '../assets/Images/Vector-1.png';
 import { Link, NavLink } from 'react-router-dom'
 import {
     Bars3BottomRightIcon,
@@ -10,7 +11,7 @@ const Header = () => {
     return (
         <div className='bg-gray-100 p-8 lg:p-20'>
 
-            <div className='relative flex items-center justify-between'>
+            <div className=' flex items-center justify-between'>
                 <Link to='/'>
                     <span className='ml-2 text-3xl font-bold tracking-wide text-cyan-500'>
                         Chakri Khuji

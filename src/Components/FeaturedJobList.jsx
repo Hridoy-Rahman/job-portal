@@ -11,12 +11,12 @@ const FeaturedJobList = ({ jobs }) => {
     }
     return (
         <>
-            <div className='mt-8 mb-8'>
-                <h1 className='text-4xl font-bold mb-4'>Featured Jobs</h1>
+            <div className='mt-8 mb-8 text-center'>
+                <h1 className='text-4xl font-bold mb-4 '>Featured Jobs</h1>
                 <p className='text-gray-500 mb-4'>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
 
-            <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8 p-8 lg:px-20'>
                 {showAllJobs 
                 ? jobs.map((job) => (
                     <FeaturedJobs key={job.id} job={job} />
