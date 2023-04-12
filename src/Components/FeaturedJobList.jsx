@@ -3,7 +3,7 @@ import FeaturedJobs from './FeaturedJobs';
 
 
 const FeaturedJobList = ({ jobs }) => {
-    console.log(jobs)
+    // console.log(jobs)
     const [showAllJobs, setShowAllJobs] = useState(false);
 
     const toggleShowAllJobs = () => {

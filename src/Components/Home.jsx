@@ -12,7 +12,7 @@ const Home = () => {
     const jobs=useLoaderData()
     const jobCategory= jobs.categories
     const jobData=jobs.jobs
-    console.log(jobData)
+    // console.log(jobData)
     return (
         <div>
             <div className='bg-gray-100 flex flex-col-reverse lg:flex-row gap-4 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 justify-center items-center'>

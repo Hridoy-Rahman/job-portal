@@ -1,8 +1,12 @@
 import React from 'react';
 import {MapPinIcon,CurrencyDollarIcon} from '@heroicons/react/24/solid'
+import { Link, useNavigate } from 'react-router-dom';
+import JobDetails from './JobDetails';
 
 const FeaturedJobs = ({ job }) => {
-    console.log(job)
+    // console.log(job)
+   
+   
     return (
         <>
             <div className='border border-gray-200 bg-gray-100 rounded-lg p-4 text-start '>
@@ -23,7 +27,7 @@ const FeaturedJobs = ({ job }) => {
                     <p className='text-gray-500 font-semibold'>{job.salary}</p>
                     </div>
                 </div>
-                <button className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... text-white p-3 text-xl rounded-lg mt-4'>View Details</button>
+                <button className='bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ... text-white p-3 w-1/4 mt-4 text-xl rounded-lg'><Link to={`/jobs/${job.id}`}>View Details</Link></button>
             </div>
         </>
     );

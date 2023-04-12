@@ -2,7 +2,7 @@ import React from 'react';
 import JobCategory from './JobCategory';
 
 const CategoryList = ({jobCategory}) => {
-    console.log(jobCategory)
+    // console.log(jobCategory)
     
     return (
         <>
