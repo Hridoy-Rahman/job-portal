@@ -32,11 +32,11 @@ const AppliedJobs = () => {
                 </label>
             </div>
             {Object.entries(appliedJobs).filter(([jobId, jobData]) => {
-                console.log(filter)
+                // console.log(filter)
           if (filter === "") {
-            return true; // no filter applied
+            return true; 
           } else {
-            return jobData.remote_or_onsite === filter; // filter by location
+            return jobData.remote_or_onsite === filter;
           }
         }).map(([jobId, jobData]) => (
                 <div className="p-4 lg:px-20">
