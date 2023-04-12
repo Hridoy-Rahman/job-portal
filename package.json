@@ -12,6 +12,7 @@
     "@heroicons/react": "^2.0.17",
     "chart.js": "^4.2.1",
     "daisyui": "^2.51.5",
+    "imgbb-uploader": "^1.5.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
