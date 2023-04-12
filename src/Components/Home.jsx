@@ -15,7 +15,7 @@ const Home = () => {
     // console.log(jobData)
     return (
         <div>
-            <div className='bg-gray-100 flex flex-col-reverse lg:flex-row gap-4 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 justify-center items-center'>
+            <div className='bg-gray-100 flex flex-col-reverse lg:flex-row gap-4 p-8 lg:p-20 justify-center items-center rounded-b-xl'>
                 <div className='w-full lg:w-1/2 lg:text-left mb-4'>
                     <h1 className='text-5xl font-bold mb-4'>
                         One Step <br /> Closer To Your <br /> <span className='text-cyan-300'>Dream Job</span>
